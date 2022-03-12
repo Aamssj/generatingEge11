@@ -25,8 +25,9 @@ void mode(int inp){
 	}
 }
 
+// Пароли с дополнительными сведениями
 void pasDopFunc(int mode){
-	setlocale(0,"");
+	
 	int symb, setsymb, dopinf, users,k=1;
 	double res;
 	
@@ -230,6 +231,7 @@ void examMode(){
     fin.close();
 }
 
+// теория
 void teory(){
 	system("cls");	
 	string str;
